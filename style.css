@@ -112,8 +112,8 @@
     gap:100px;
     background-color:#d5fdf9;
     
-    margin-top: 40px;
-    padding-top:40px;
+    margin-top: 60px;
+    padding-top:80px;
     padding-bottom: 40px;
     padding-left:40px;
     padding-right: 40px;
@@ -145,8 +145,8 @@
     /* ------services section------- */
     .services {background-color: aliceblue;
         background-color: azure;
-        margin-top: 40px;
-        padding-top:40px;
+        margin-top: 60px;
+        padding-top:80px;
         padding-bottom: 40px;
         padding-left:40px;
         padding-right: 40px;}
@@ -195,7 +195,7 @@
     /* ---------testimonial-section-------------- */
     .testimonial {background-color:#d5fdf9;
         margin-top: 40px;
-        padding-top:40px;
+        padding-top:80px;
         padding-bottom: 40px;
         padding-left:40px;
         padding-right: 40px;
@@ -257,7 +257,7 @@
     
     /* -------contact section code---------- */
     .contact {background-color:azure;
-        margin-top: 40px;
+        margin-top: 60px;
         padding-top:40px;
         padding-bottom: 20px;
         padding-left:40px;
@@ -305,7 +305,7 @@ color:black;}
     width: 100%;
     padding:40px 0;
     background-color:#d5fdf9;
-    margin-top: 30px;
+    margin-top:0;
     margin-bottom: 30px;}
     
     .footer .social {text-align: center;
