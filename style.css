@@ -296,7 +296,9 @@
     
     .contact form .btn {margin-top: 32px;}
     
-    
+    .msg {font-size: 40px;
+    font-weight: bold;
+color:black;}
     /* ----footer section css------ */
     .footer {position: relative;
     bottom: 0;
@@ -492,6 +494,10 @@
     padding:10px 10px;}}
     
     @media(max-width:636px){.text-area{padding-top: 5px;}}
+
+
+    @media(max-width:700px){.msg{font-size: 30px;
+    color:black;}}
     
     /* ---------footer responsiveness code--------- */
     
