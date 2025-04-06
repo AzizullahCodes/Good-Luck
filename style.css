@@ -1,0 +1,504 @@
+* {margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    /* ----body--- */
+    body {font-family: Arial, Helvetica, sans-serif;
+    background-color:azure;}
+    /* ----------heder section------------ */
+    /* .header {width: 100%;
+    margin: auto;
+    padding:20px;background-color:yellow;
+    display: flex;
+    justify-content: space-between;text-align: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    
+    } */
+     .res {width: 100%;
+    position:fixed;
+    background-color: #007f73;
+    top:0;
+    
+    } 
+    
+    
+    /* ---------home section code--------- */
+    .home {display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        background-color:azure;
+        padding-top:60px;
+        padding-bottom: 30px;
+        padding-right: 40px;
+        padding-left: 40px;
+        gap:160px;
+        margin-bottom: 0;
+    }
+    
+    .home-img img {width: 300px;
+    border-radius: 150px;
+    cursor: pointer;
+    animation:floatImage 4s ease-in-out infinite;
+    transition: 0.4s ease;
+    }
+    
+    .home-img img:hover {box-shadow: 0 0 25px seagreen;
+    }
+    
+    .home-img img:hover {transform: scale(1.05);}
+    
+    @keyframes floatImage{
+        0%{transform: translateY(0);}
+        50% {transform: translateY(-2.4rem);}
+        100% {transform: translateY(0);}
+    }
+    
+    
+    
+    
+    .home-content h3 {font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;}
+    
+    span {color:seagreen;}
+    
+    .home-content h1 {font-size:40px ;
+    font-weight: 900;
+    }
+    
+    .social-media a {display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 82px;
+    background: transparent;
+    border:2px solid aliceblue;
+    border-radius: 50%;
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-top:60px;
+    margin-right: 40px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border:2px solid #007f73;
+    color:#007f73}
+    
+    .social-media a:hover {transform: scale(1.5) translateY(-5px);
+    box-shadow: 0 0 25px #007f73;
+    background-color:#007f73;
+    color:#ffffff;}
+    
+    .btn {padding:8.8px 24.64px;
+    background-color:#007f73;
+     border-radius: 64px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color:white;
+    transition:0.3s ease;
+    }
+    
+    .btn:hover {box-shadow: 0 0 24px #007f73;
+    background-color: #007f73;
+    color:white;}
+    
+    /* ----------about-section----- */
+    
+    .about {display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    background-color:#d5fdf9;
+    
+    margin-top: 40px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left:40px;
+    padding-right: 40px;
+    }
+    
+    
+    .about-img img {width: 300px;
+        border-radius: 150px;
+        cursor: pointer;
+        animation:floatImage 4s ease-in-out infinite;
+        transition: 0.4s ease;
+    }
+    
+    .about-img img:hover {box-shadow: 0 0 25px seagreen;
+    }
+    
+    .heading {font-size: 66px;
+    text-align: center;}
+    
+    
+    
+    .about-content h2 {text-align: left;
+    line-height: 1.2;}
+    
+    .about-content h3 {font-size: 48px;}
+    
+    
+    
+    /* ------services section------- */
+    .services {background-color: aliceblue;
+        background-color: azure;
+        margin-top: 40px;
+        padding-top:40px;
+        padding-bottom: 40px;
+        padding-left:40px;
+        padding-right: 40px;}
+    .services h2 {margin-bottom: 50px;}
+    
+    .services-container {display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    }
+    
+    .services-container .services-box {
+    
+    border-radius: 32px;
+    text-align: center;
+    transition: 0.3s ease;
+    background-color:#d5fdf9;
+    padding-bottom: 30px;
+    padding-top:10px;
+    }
+    
+    .services-container .services-box:hover {border-color:springgreen ;
+        border-width: 4px;
+    transform: scale(1.02);}
+    .services-box i {font-size: 80px;
+    color:#007f73;}
+    
+    .services-box h3 {font-size: 40px;}
+    
+    .services-box p {font-size: 20px;
+    padding-top:20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;}
+    
+     
+    @media(max-width:453px){.btn.btn-2.btn-4{position: relative;
+    left:7px;
+    top:-40px;}}
+    
+    
+    @media(max-width:1150px){.services-container{
+    flex-wrap: wrap;}}
+    
+    
+    /* ---------testimonial-section-------------- */
+    .testimonial {background-color:#d5fdf9;
+        margin-top: 40px;
+        padding-top:40px;
+        padding-bottom: 40px;
+        padding-left:40px;
+        padding-right: 40px;
+        transition: 0.3s ease;}
+    
+        .testimonial-item img {width: 100px;
+            border-radius: 50px;
+            cursor: pointer;
+            animation:floatImage 4s ease-in-out infinite;
+            
+        position: relative;
+    left:140px;
+    top:50px;
+    }
+    
+    
+    .testimonial-item h2 {
+    position: relative;
+    left:100px;
+    top:50px;
+    color:black;
+    font-weight: 600;}
+    
+            .wrapper {display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap:60px;
+            transition: 0.4s ease;
+        }
+    
+        .testimonial-item {
+        background-color: #ffffff;
+    border-radius: 40px;
+    transition:  0.2s ease;
+    }
+    
+        .rating {position: relative;
+        top:50px;
+    left:140px;
+    color:darkgreen}
+    
+    .testimonial-item p {position: relative;
+    top:60px;
+    padding-bottom:80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    }
+    
+    /* .testimonial:hover {border-color:springgreen ;
+        border-width: 4px;
+    transform: scale(1.02);
+    } */
+    
+    .testimonial-item:hover {box-shadow: 0 0 25px #007f73;
+    border:2px solid #007f73;
+    transform: scale(1);}
+    
+    
+    /* -------contact section code---------- */
+    .contact {background-color:azure;
+        margin-top: 40px;
+        padding-top:40px;
+        padding-bottom: 20px;
+        padding-left:40px;
+        padding-right: 40px;}
+    
+    .contact h2 {margin-bottom: 48px;
+        color:#007f73;
+        font-size: 52px;
+        font-weight: 600;
+    }
+    
+    .contact form {
+        max-width: 1280px;
+        margin:16px auto;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    
+    .contact form .input-box {display: flex;
+    justify-content: center;
+    flex-wrap: wrap;}
+    
+    .contact form .input-box input,
+    .contact form textarea {width: 100%;
+    padding:8px;
+    font-size: 26px;
+    border-radius: 12px;
+    border:2px solid #007f73;
+    margin: 6px 3px;
+    resize: none;
+    background-color: #ffffff;
+    color:black;}
+    
+    .contact form .input-box input {width: 49%;
+    margin:12px 6px;}
+    
+    .contact form .btn {margin-top: 32px;}
+    
+    
+    /* ----footer section css------ */
+    .footer {position: relative;
+    bottom: 0;
+    width: 100%;
+    padding:40px 0;
+    background-color:#d5fdf9;
+    margin-top: 30px;
+    margin-bottom: 30px;}
+    
+    .footer .social {text-align: center;
+    padding-bottom: 25px;
+    }
+    
+    .footer .social a {font-size: 25px;
+       border:2px solid #007f73;
+       width: 42px;
+       height: 42px;
+       border-radius: 50%;
+       display: inline-block;
+       text-align: center;
+       line-height: 42px;
+       margin: 0 10px;
+       transition: 0.3s ease;
+    color:#007f73;}
+    
+       .footer .social a:hover {transform: scale(1.5) translateY(-10px);
+        box-shadow: 0 0 25px #007f73;
+        background-color:#007f73;
+    color:#ffffff}
+    
+        .footer .copyright {
+        text-align: center;
+    font-size: 24px;
+    color:black;}
+    
+    /* --Now we make responsive our portfolio---- */
+    @media(max-width:1110px){
+       
+    .home {flex-direction: column;
+    padding-bottom: 0px;}
+    .home-content h3 {font-size:35px ;
+    font-weight: 700;}
+    .home-content h1 {font-weight: 700;}
+    .home-content {position: relative;
+    top:-150px;}
+    
+    
+        .home .social-media a:hover {background-color:#007f73;}
+    
+        
+    
+    .home .social-media {padding-left:20px;
+    padding-top: 12px;
+    padding-bottom: 10px;}
+    
+    
+    
+    .home-img img {width: 200px;
+        border-radius: 50%;}
+    }
+    @media(max-width:700px){.home {
+    margin-bottom: -120px;}}
+    /* @media(max-width:350px){.home-img img {width: 200px;
+        border-radius: 50%;
+        
+        }} */
+         @media(max-width:550px){.home .social-media a {display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            background: transparent;
+            border:1px solid seagreen;
+            border-radius: 50%;
+            font-size: 16px;
+            margin:21px 16px 11px 0;
+            transition: 0.3s ease;
+            text-decoration: none;
+        }}
+    
+        @media(max-width:986px){.btn.btn-2 {margin-bottom: -50px;
+            
+           
+            }}
+    
+        @media(max-width:400px){.btn.btn-2 {padding:10px 30px;
+            background-color:seagreen;
+             border-radius: 64px;
+            box-shadow: none;
+            font-size: 18px;
+            font-weight: 500;
+            
+            position: relative;
+            left:25px;
+            top:-10px;
+            
+            }}
+    /* ------about section responsiveness code */
+            @media (max-width:960px){.about {
+            flex-direction: column;}}
+    
+            @media(max-width:768px){.about-img img{width: 200px;
+                border-radius: 50%;}}
+    
+        /*----------services section responsiveness---------- */
+    @media(max-width:520px){.services h2{font-size: 30px;
+    margin-bottom:20px;
+    font-weight: 700;}
+    #my-icon{font-size: 60px;
+    color:seagreen}
+    .services-box h3 {padding-right: 10px;
+    padding-left: 10px;}}
+    
+    @media(max-width:1016px) and (min-width:450px){.btn.btn-2.btn-4.btn-5{position: relative;
+    margin-bottom: 20px;}}
+        /* ----Testimonial section responsive code------- */
+        @media (max-width:500px){.testimonial h2{font-size: 45px;
+        font-weight:700;}}
+     
+        @media(max-width:1080px){.wrapper{display: flex;
+        flex-direction: column;
+    }}
+    
+        @media(max-width:1085px){.testimonial-item .testimonial-img {width: 250px;
+            border-radius: 50%;
+            
+        position: relative;
+    left:20px;
+    top:30px;}
+    
+    .testimonial-item{padding-top:30px;
+    margin-top: 50px;}
+    }
+    @media(max-width:550px){.testimonial-item .testimonial-img{width:100px;
+    border-radius: 50%;
+    position: relative;
+    left:90px;}
+    .testimonial h2 {position: relative;
+    margin-bottom: -25px;
+    font-size: 30px;}
+    .testimonial p {position: relative;
+    top:90px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 120px;}
+    .wrapper{display: flex;
+        flex-direction: column;
+    gap:2px;}}
+    @media(max-width:700px){.testimonial-item img {width: 150px;
+        border-radius: 50%;
+        
+    position: relative;
+    left:100px;
+    top:30px;
+    margin-bottom: -20px;}}
+    
+    @media(max-width:500px){.testimonial-item h2{position: relative;
+    left:55px;
+    font-size: 30px;}
+    }
+    @media(max-width:556px){.rating {position: relative;
+        left:90px;
+        top:80px;}}
+    
+    
+    /* ----contact section responsiveness---- */
+    @media(max-width:620px){.contact h2 {font-size: 30px;
+    margin-bottom: -10px;
+    font-weight:700;
+    position: relative;
+    bottom:-10px;
+    color: black;}
+    .contact form .input-box input {width: 100%;
+        padding:9px;
+        font-size: 12px;
+        border-radius: 8px;
+        margin-bottom: -5px;
+    }
+    .btn.btn-2{padding:8.8px 24.64px;
+        background-color:#007f73;
+         border-radius: 32px;
+        
+        font-size:14px;
+        color:white;
+       
+        
+    }
+    }
+    
+    @media(max-width:417px){.btn.btn-2.btn-3 {position: relative;
+    left:2px;
+    top:-25px;
+    padding:10px 10px;}}
+    
+    @media(max-width:636px){.text-area{padding-top: 5px;}}
+    
+    /* ---------footer responsiveness code--------- */
+    
+    @media(max-width:500px){.footer .copyright {font-size: 20px;
+    position: relative;
+    bottom:15px;}}
+    
+    @media (max-width:768px) {.res,.ppp{display: flex;
+    gap:10px;}}
