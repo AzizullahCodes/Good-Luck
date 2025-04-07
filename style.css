@@ -112,8 +112,8 @@
     gap:100px;
     background-color:#d5fdf9;
     
-    margin-top: 60px;
-    padding-top:80px;
+    margin-top: 40px;
+    padding-top:60px;
     padding-bottom: 40px;
     padding-left:40px;
     padding-right: 40px;
@@ -145,8 +145,8 @@
     /* ------services section------- */
     .services {background-color: aliceblue;
         background-color: azure;
-        margin-top: 60px;
-        padding-top:80px;
+        margin-top: 40px;
+        padding-top:40px;
         padding-bottom: 40px;
         padding-left:40px;
         padding-right: 40px;}
@@ -194,8 +194,8 @@
     
     /* ---------testimonial-section-------------- */
     .testimonial {background-color:#d5fdf9;
-        margin-top: 40px;
-        padding-top:80px;
+        margin-top: 20px;
+        padding-top:40px;
         padding-bottom: 40px;
         padding-left:40px;
         padding-right: 40px;
@@ -257,7 +257,7 @@
     
     /* -------contact section code---------- */
     .contact {background-color:azure;
-        margin-top: 60px;
+        margin-top: 20px;
         padding-top:40px;
         padding-bottom: 20px;
         padding-left:40px;
@@ -507,3 +507,73 @@ color:black;}
     
     @media (max-width:768px) {.res,.ppp{display: flex;
     gap:10px;}}
+
+ /*----i have completed my css for portfolio now i am interconnecting all the
+ page to each other so i need some css ,that i am applying under------ */ 
+
+
+    /* -------------Now i interconnect my web pages ---------- */
+    .sub-header {height: 60vh;
+        width: 100%;
+
+      background-color:#d5fdf9;
+        text-align: center;
+       
+    }
+        
+        .sub-header h1 {position: relative;
+        top:120px;
+    left:20px;
+color:black;
+font-size: 60px;
+font-weight: 700;}
+        
+.about {display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    background-color:#d5fdf9;
+    
+    margin-top: 0px;
+    padding-top:60px;
+    padding-bottom: 40px;
+    padding-left:40px;
+    padding-right: 40px;
+    }
+    
+    
+    .about-img img {width: 300px;
+        border-radius: 150px;
+        cursor: pointer;
+        animation:floatImage 4s ease-in-out infinite;
+        transition: 0.4s ease;
+    }
+    
+    .about-img img:hover {box-shadow: 0 0 25px seagreen;
+    }
+    
+    .heading {font-size: 66px;
+    text-align: center;}
+    
+    
+    
+    .about-content h2 {text-align: left;
+    line-height: 1.2;}
+    
+    .about-content h3 {font-size: 48px;}
+    
+    
+        
+        /* -----custom css on nav bar in sub-header ------ */
+        .custom-nav-sub {width:100%;
+            
+        background-color:#007f73;
+    }
+
+      /* -----sub hedaer section media query----------- */
+      @media(max-width:600px){.sub-header h1{font-size: 35px;
+    
+margin-right: 50px;
+margin-top:-60px;
+padding-bottom: 0;}
+.sub-header {height: 30vh;}}
